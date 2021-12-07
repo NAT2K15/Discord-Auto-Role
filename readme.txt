@@ -1,0 +1,4 @@
+- Make sure you have nodejs v16+ installed
+- Edit config
+- run setup.bat
+- run start.bat
