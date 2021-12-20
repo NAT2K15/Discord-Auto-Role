@@ -48,6 +48,7 @@ nat2k15.on('messageCreate', async(message) => {
 })
 
 nat2k15.on('interactionCreate', async(interaction) => {
+    if(!interaction) return
     if (!interaction.isButton()) return;
     if (!interaction.customId.startsWith("role-")) return;
     await interaction.deferUpdate()
